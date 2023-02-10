@@ -12,6 +12,7 @@ int main()
     {
         scanf("%d", &m[i]);
     }
+    
 
 
 

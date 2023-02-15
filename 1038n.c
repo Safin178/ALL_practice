@@ -9,16 +9,16 @@ int main()
     case 1:
         printf("Total: R$ %.2lf\n", b * 4.00);
         break;
-    case 2:
+        case 2:
         printf("Total: R$ %.2lf\n", b * 4.50);
         break;
-    case 3:
+        case 3:
         printf("Total: R$ %.2lf\n", b * 5.00);
         break;
-    case 4:
+        case 4:
         printf("Total: R$ %.2lf\n", b * 2.00);
         break;
-    case 5:
+        case 5:
         printf("Total: R$ %.2lf\n", b * 1.50);
         break;
     }
@@ -37,6 +37,5 @@ int main()
 
     return 0;
 }
-
 
 

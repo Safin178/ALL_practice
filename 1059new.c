@@ -1,12 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int a, x;
-    scanf("%d", &x);
-   a = 1;
-    while (a <= x)
+    int a;
+    a = 1;
+    while (a <= 100)
     {
-        if( a % 2 != 0)
+        if( a % 2 == 0)
         {
             printf("%d\n", a);
         }
@@ -15,3 +14,5 @@ int main()
 
     return 0;
 }
+
+

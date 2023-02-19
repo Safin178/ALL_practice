@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<string.h>
+
 int main()
 {
 
@@ -7,9 +7,9 @@ int main()
     char s[10];
     scanf("%s", s);
 
-    x = strlen(s);
+   
 
-    for(i = 0 ; i < x; i++)
+    for(i = 0 ; i < 10; i++)
     {
         if(s[i] == '0')
         {

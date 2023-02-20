@@ -31,7 +31,7 @@ int main()
              if(f == 1) ans++;
         
         }     
-        printf("%d", ans);
+        printf("%d\n", ans);
     
     
     

@@ -1,41 +1,64 @@
 #include<stdio.h>
 int main()
 {
-    /*
-    
-    
-    */
-        int n,m,i, ans = 0;
-        scanf("%d%d", &n , &m);
-        int s[n], t[m];
-    
-        for(i = 0; i< n;i++)
-        {
-            scanf("%d", &s[i]);
-            s[i] = s[i] % 1000;
-             
-        }       
-    
-  int j, f;
-        for(i = 0; i< m;i++)
-        {
-            scanf("%d", &t[i]);
-            for(j = 0,f = 0; j < n;j++)
-                {
-                    if(s[j] == t[i])
-                          {
-                             f = 1;
-                             break;
-                           }
-                }
-             if(f == 1) ans++;
-        
-        }     
-        printf("%d", ans);
-    
-    
-    
-    
-    
+
+    char q[5],p;
+    int s,a,b,c;
+    scanf("%s %d",q,&s);
+    scanf("%d %c %d %c %d",&a,&p,&b,&p,&c);
+    int e,x,y,z;
+    scanf("%s %d",q,&e);
+    scanf("%d %c %d %c %d",&x,&p,&y,&p,&z);
+
+    int D,H,M,S;
+
+    /* din r jonno D*/
+   
+
+
+    // aikhane ghonta r calculation
+    if(a>x){
+        H=24-(a-x);
+    }
+    if(a==x){
+        H=0;
+    }
+    if(a<x){
+        H=x-a;
+    }
+    //aikhane minit r akoirokom ghontar mto
+
+    if(b>y){
+        M=60-(b-y);
+    }
+    if(b==y){
+        M=0;
+    }
+    if(b<y){
+        M=y-b;
+    }
+    //same kaj second r jonno
+    if(c>z){
+        S=60-(b-y);
+    }
+    if(c==z){
+        S=0;
+    }
+    if(c<z){
+        S=y-b;
+    }
+    if (H ==0)
+    {
+         D=e-s;
+    }
+    else{ D=e-s-1;}
+
+
+    printf("%d dia(s)\n",D);
+    printf("%d hora(s)\n",H);
+    printf("%d minuto(s)\n",M);
+    printf("%d segundo(s)\n",S);
+
     return 0;
+
 }

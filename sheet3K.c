@@ -5,18 +5,19 @@ int main()
 
 
     */
-    int n ,i, sum = 0, x;
-    scanf("%d%d", &n, &x);
-  
+   int n, sum = 0, i;
+   scanf("%d", &n);
+   char ar[n], x;
+
+  scanf("%s", ar);
     
     for(i = 0 ; i<n ; i++)
-    
-    {
-        
-        sum += (x % 10);
-        x = x / 10;
-        
 
+    {
+        x = ar[i] ;
+        
+        sum += (x - 48);
+    
     }
     
     printf("%d", sum);

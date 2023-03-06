@@ -31,7 +31,7 @@ int main()
             }
         }
 
-        printf("%lld", small);
+        printf("%lld\n", small);
 
 
 

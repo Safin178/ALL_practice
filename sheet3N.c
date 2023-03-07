@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>//https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/N
 int main()
 {
     int a, b, f = 0, i;

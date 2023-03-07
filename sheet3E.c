@@ -16,7 +16,6 @@ int main()
     {
         scanf("%d", &m[i]);//5
 //5 6 2 3 2
-  
     }
      s = m[0];
     for(i = 0 ; i < a;i++)

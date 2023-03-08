@@ -5,6 +5,8 @@ int main()
 
 
     */
+   freopen("input.txt", "r+", stdin);
+    freopen("output.txt", "w+", stdout);
         int x, y = 0,r, z;
         scanf("%d", &x);
         z = x;

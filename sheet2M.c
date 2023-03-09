@@ -18,6 +18,7 @@ f is flag
             if (r != 4 && r != 7)
             {
                 f = 1;
+                break;
             }
             x /= 10;
         }

@@ -1,0 +1,1 @@
+{"name":"Local: sheet1C","url":"e:\\CodeForces\\sheet1C.c","tests":[{"id":1678529685777,"input":"5 2","output":"5 + 2 = 7\n5 * 2 = 10\n5 - 2 = 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\CodeForces\\sheet1C.c","group":"local","local":true}

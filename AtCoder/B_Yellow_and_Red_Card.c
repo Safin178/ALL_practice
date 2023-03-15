@@ -7,11 +7,12 @@ int main()
     */
     int n ,event;
     scanf("%d%d", &n, &event);
-    int arr[n+1] , x, y, i;
-    for(i=1; i<= n+1; i++)
-    {
-        arr[i] = 0;
-    }
+    int  x, y, i;
+   
+
+    int arr[101]={};
+
+
 
     for(i = 1; i <= event; i++)
     {

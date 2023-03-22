@@ -7,7 +7,12 @@ int main()
     */
     int n, cnt=0, i;
     scanf("%d", &n);
-    int arr[100000] = {} ;
+    int arr[n+1];
+    arr[0] = 0;
+    for(i = 1 ; i <= n ; i++)
+    {
+        arr[i] = 0;
+    }
     
     for(i = 1 ; i <= n ; i++)
     {

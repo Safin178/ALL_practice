@@ -9,7 +9,7 @@ int main()
     scanf("%lld", &x);
 
     row = (x / 4);
-    if(x % 2 != 0)
+    if(row % 2 != 0)
     {
         col = (x % 4) +1;
     }

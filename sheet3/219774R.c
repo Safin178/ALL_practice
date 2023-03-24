@@ -30,7 +30,7 @@ int main()
         if(a[i] != -1)
         {
             printf("no\n");
-            return 0;//ar lagtese na program thanks to boot23
+            return 0;//ar lagtese na program thanks to boot23..
         }
 
     }

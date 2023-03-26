@@ -13,14 +13,13 @@ int main()
    {
     char str[105];
       scanf(" %s ", str);
-      int x = strlen(str);
-      if(x < 10)
+          int x = strlen(str);
+      if(x <= 10)
       {
         printf("%s\n", str);
-
       }
       else{
-        printf("%c%d%c\n", str[0] , x-2, str[x-1]);//x -1 bul hoccilo age x disilam
+        printf("%c%d%c\n", str[0] , x-2, str[x-1]);
       }
    }
 

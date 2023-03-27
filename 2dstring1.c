@@ -7,6 +7,7 @@ int main()
     char str[n][20], temp[20];
     for(i = 0; i < n ; i++)
     {
+        
         scanf("%s", str[i]);
 
     }

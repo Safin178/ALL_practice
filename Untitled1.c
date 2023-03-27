@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+    
     int a , b , c, d, x, y,z, s1, s2, z1;
     scanf("%d%d%d%d%d%d", &a, &b, &c, &d,&s1, &s2);
     x = ((a * 60) + b) *60 + s1;

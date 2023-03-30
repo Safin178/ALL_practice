@@ -7,7 +7,6 @@ int main()
     */
    int n ;
    
-    printf("minul pagol");
     
     
     

@@ -27,12 +27,13 @@ int main()
 
     for (i = 0; i < n; i++)
     {
-        for (j = 0; j < m; j++)
+        for (j = 0; j < m-1; j++)
         {
             
             printf("%lld ", (a[i][j] + b[i][j]));
         }
-        printf("\n");
+        printf("%lld\n", (a[i][m-1] + b[i][m-1]));
+        
     }
 
     return 0;

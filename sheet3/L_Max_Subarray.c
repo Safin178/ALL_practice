@@ -1,12 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    /*
-
-
-    */
-    // freopen("input.txt", "r+", stdin);
-    // freopen("output.txt", "w+", stdout);
+  
+   
     int t, n, i, j, max, x;
     scanf("%d", &t);
     while (t--)
@@ -20,7 +16,7 @@ int main()
         }
 
         for (i = 0; i < n; i++)
-        {
+        { 
 
             for (j = i; j < n; j++)
             {

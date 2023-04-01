@@ -1,10 +1,11 @@
 #include<stdio.h>
-int main()
+#include<string.h>
+#include<math.h>
+#include<stdlib.h>
+#include<limits.h>
+
+void solve()
 {
-    /*
-    
-    
-    */
     int n ,m, i, j;
     scanf("%d%d", &n, &m);
     int a[n][m];
@@ -15,7 +16,7 @@ int main()
             scanf("%d", &a[i][j]);
         }
     }
-    int x , y, l;
+    int x , y;
     scanf("%d%d", &x, &y);
     int b[x][y];
     for(i = 0; i< x ; i++)
@@ -30,23 +31,31 @@ int main()
     
         for(i = 0; i< x ; i++)
         {
-            for(j = 0, l = y-1; j < y ; j++, --l)
+            for(j = 0; j < y ; j++)
             {
-                if(a[i][l] != b[i][j])
+                if(a[i][j] != b[i][j])
                 {
-                    printf("No\n");
-                    return 0;
+                    printf("NO\n");
+                    return;
                 }
             }
         }
-        printf("Yes\n");
+        printf("YES\n");
             
-    
-    
-    
     }
-    else {printf("No\n");}
+    else {printf("NO\n");}
+
     
+}
+
+int main()
+{
+    int t = 1;
+    scanf("%d", &t);   // remove '//' for test case
     
+    while(t--)
+    {
+        solve();
+    }
     return 0;
 }

@@ -1,50 +1,40 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     /*
-    
-    
+
+
     */
-    int a, b, max =-1;
+    int a, b, max = -1;
     scanf("%d%d", &a, &b);
-    if(a > b)
+    if (a > b)
     {
-    for(int i = 1; i <=a; i++ )
-    {
-        if((a % i == 0) && (b % i == 0))
+        for (int i = 1; i <= a; i++)
         {
-            if(i > max)
+            if ((a % i == 0) && (b % i == 0))
             {
-                max = i;
+                if (i > max)
+                {
+                    max = i;
+                }
             }
         }
+        printf("%d", max);
     }
-    printf("%d", max);
-    
-    
-    }
-    else if(a <= b)
+    else if (a <= b)
     {
-    for(int i = 1; i <=b; i++ )
-    {
-        if((a % i == 0) && (b % i == 0))
+        for (int i = 1; i <= b; i++)
         {
-            if(i > max)
+            if ((a % i == 0) && (b % i == 0))
             {
-                max = i;
+                if (i > max)
+                {
+                    max = i;
+                }
             }
         }
+        printf("%d", max);
     }
-    printf("%d", max);
-    
-    
-    }
-    
-    
-    
-    
-    
-    
-    
+
     return 0;
 }

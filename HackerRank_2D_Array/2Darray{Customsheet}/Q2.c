@@ -4,7 +4,7 @@ int main()
     /*
     intput :
                 3 4
-            1 0 0 0
+            1 0 0 0 
             2 2 0 0
             4 0 5 0
             out : YES
@@ -19,7 +19,7 @@ int main()
    //freopen("input.txt", "r+", stdin);
     //freopen("output.txt", "w+", stdout);
     
-    int n, m, i , j, cnt0= 0, cnt1= 0;
+    int n, m, i , j, cnt0= 0, cnt1=  0;
     scanf("%d%d", &n, &m);
     int arr[n][m];
     for(i = 0; i  <n ; i++)

@@ -1,14 +1,22 @@
 #include<stdio.h>
+#include<string.h>
+#include<math.h>
+#include<stdlib.h>
+#include<limits.h>
 
 void solve(void)
 {
+    
+
+
     
 }
 
 int main()
 {
-    int t;
-    scanf("%d", &t);
+    int t = 1;
+    //scanf("%d", &t);   // remove '//' for test case
+    
     while(t--)
     {
         solve();

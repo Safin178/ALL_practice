@@ -2,7 +2,7 @@
 #include<string.h>
 int main()
 {
-    int a, b, i;
+    int a, b, i, cnt = 0;
     scanf("%d%d", &a, &b);
     char x[100];
 
@@ -11,6 +11,7 @@ int main()
     {
         for (i = 0; i < strlen(x); i++)
         {
+            if(x[i] == '-') cnt++;
             if (i == a)
             {
                 continue;
@@ -21,7 +22,13 @@ int main()
                 return 0;
             }
         }
-        printf("Yes\n");
+        if (cnt == 1)
+        {
+            printf("Yes\n");
+
+        }
+        else
+        printf("No");
     }
     else
     {

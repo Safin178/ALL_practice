@@ -8,7 +8,8 @@ void solve(void)
 {
     //loop diye korte partam but prefix sum practice...
 
-    //https://youtu.be/7pJo_rM0z_s 
+    //https://youtu.be/7pJo_rM0z_s //
+    //ager approach tao tik cilo long long diye hoi gese 😁
     long long int n , m, i;
     scanf("%lld%lld", &n,&m);
     long long int arr[n+1];

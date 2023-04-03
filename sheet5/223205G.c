@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<limits.h>
 
 
 int maxico(int x, int y)
@@ -13,7 +14,7 @@ int main()
 {
     int n, num; 
     scanf("%d", &n);
-    int max = -1, minimum = 10000000;
+    int max =INT_MIN, minimum = INT_MAX;
     for(int i = 0 ; i< n; i++)
     {
         scanf("%d", &num);

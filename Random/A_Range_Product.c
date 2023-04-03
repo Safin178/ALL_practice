@@ -10,40 +10,28 @@ void solve(void)
 
     long long int sum = 1;
     scanf("%lld%lld", &a, &b);
-    if(a == b)
+    if (a > 0 && b > 0)
     {
-        sum = a * b;
-        if(sum == 0)
+        printf("Positive\n");
+    }
+    if(a <= 0 && b >= 0)
+    {
+        printf("Zero\n");
+    }
+    if(a < 0 && b < 0)
+    {
+        sum = b - a;
+        if(sum % 2 == 0)
         {
-            printf("Zero\n");
+            printf("Negative");
         }
-        else if(sum > 0)
+        else 
         {
             printf("Positive\n");
         }
-        else{
-            printf("Negative\n");
-        }
-    }
-    else{
-         
-            for( i = a ; i <= b; i++)
-            {
-                sum *= i;
-            }
-            if(sum  == 0)
-                {
-                    printf("Zero\n");
-                }
-                else if(sum >0)
-                {
-                    printf("Positive\n");
-                }
-                else{
-                    printf("Negative\n");
-                }
+    }   
+               
 
-    }
 
 
     

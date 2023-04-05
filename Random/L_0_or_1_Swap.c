@@ -6,38 +6,46 @@
 
 void solve(void)
 {
-    int n, i , temp, c = 0; 
+    int n, i , temp, c = 0, min, cnt= 0, pos, j; 
     scanf("%d", &n);
-    int arr[n];
-    
-    if(n >= 3)
+    int a[n];
+    for( i = 0; i <n; i++)
     {
-            for(i = 0 ; i < n; i++)
-        {
-            scanf("%d", &arr[i]);
-        }
-        for(i = 0; i < n-1-1; i++)
-        {
-            if ( c < a[i])
-            {
-             if((arr[i] > arr[i+1])
-            {
-                temp = a[i];
-                a[i] = a[i+1];
-                a[i+1]= temp;
-            }
-             c = arr[i];
-            }
-            else
-            {
-                printf("NO\n");
-                return;
-            }
-            
-        }
+        scanf("%d", &a[i]);
     }
-    printf("YES\n");
+    for(i = 0; i< n;i++)
+    {
+       min = i;
+        for(j = i+1;j < n;j++)
+        {
 
+            if(a[j] < a[i])
+            {
+                min = j;
+                
+            }
+        }
+          if(min != i){
+                temp = a[i];
+                a[i] = a[min];
+                a[min] = temp;
+                cnt++;}
+
+    }
+
+  
+
+    
+   if(cnt>1)
+   {
+    printf("NO");
+   }
+   else{
+    printf("YES\n");
+   }
+                  
+            
+        
     
 }
 

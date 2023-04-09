@@ -12,7 +12,7 @@ void solve(void)
 
      for(i = 0; i < n; i++)
     {
-        scanf(" %s ", &s[i]);
+        scanf(" %s ", s[i]);
         for(j = 0; j < m-1;j++)
         {
               if(s[i][j] == 'T' && s[i][j+1] == 'T')
@@ -47,7 +47,7 @@ void solve(void)
         
     //
 
-    
+    return;
 }
 
 int main()

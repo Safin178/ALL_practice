@@ -22,6 +22,8 @@ int main()
     }
     printf("1/%d", 6 / ans);
 
+    //mm
+
     
     
     

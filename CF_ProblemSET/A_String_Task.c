@@ -4,7 +4,7 @@
 #include<stdlib.h>
 #include<limits.h>
 
-void solve(void)
+void solve(void)//Wa
 {
     char s[120];
 

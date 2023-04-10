@@ -4,7 +4,7 @@
 #include<stdlib.h>
 #include<limits.h>
 
-void solve(void)//Wa
+void solve(void)
 {
     char s[120];
 
@@ -16,7 +16,7 @@ void solve(void)//Wa
         {
             s[i] = s[i] + 32;
         }
-        if(s[i] != 'a' && s[i] != 'e' && s[i] != 'o' && s[i] != 'i' && s[i] != 'u')
+        if(s[i] != 'a' && s[i] != 'e' && s[i] != 'o' && s[i] != 'i' && s[i] != 'u' && s[i] != 'y')
         {
             printf(".%c", s[i]);
         }

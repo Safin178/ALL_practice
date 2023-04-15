@@ -15,14 +15,14 @@ int main()
 
      int x = (n / 2);
      x++;
-     
+     // majkaner X oita print
      
 
      for(i = 1, k = n; i <= n; i++, k--)
      {
         for(j = 1 ; j <= n ; j++)
         {
-            arr[i][j] = '*';
+            arr[i][j] = '*';// shob gula star
             arr[i][i]= '\\';
             arr[i][k] = '/';
         }

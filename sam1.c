@@ -1,31 +1,55 @@
 #include<stdio.h>
 #include<conio.h>
-int main()
+#include<windows.h>
+//Ignore THIS PART....
+void gotoxy(int x, int y)
 {
-    /*
+    COORD coord;
+    coord.X = x;
+    coord.Y = y;
+    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
+}
+//  this part is copied from Google..
 
+int  main()
+{
+    int choice;
 
-    */
-        int a,n, i = 0, temp ,ans=0 ;
-        scanf("%d", &a);
-        temp = a;
-        while(a >0)
+    printf("1 . Login\n\n");
+    printf("2 . Sign up\n\n");
+    printf("3 . Admin \n\n");
+    printf("4 . Exit\n\n");
+    printf("Please Enter a Command >");
+    scanf("%d", &choice);
+    while(choice)
+    {
+        switch (choice)
         {
-            n = a %2;//reminder
-
-            a = a / 2;
-            i++;
-        }
-        while(temp > 0)
-        {
-            n = temp % 2;
-
-            temp = temp / 2;
-            gotoxy(i , 1);
-            printf("%d", n);
-            i--;
+        case 1:
+            login();
+            break;
+        case 2:
+            sign();
+            break;
+        case 3:
+            admin();
+            break;
         }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
 
 
 

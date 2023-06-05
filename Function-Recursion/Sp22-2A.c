@@ -1,2 +1,4 @@
-//function definition theory.txt te ase.
+//function definition
+
+bujtesi na ki hobe,
 

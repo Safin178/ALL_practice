@@ -1,9 +1,9 @@
 #include<stdio.h>
 
-// similar like Aut22-2C
+//slightly  similar like Aut22-2C
 int divisorcheck(int x, int y)
 {
-    if(x % y == 0 || y % x == 0)
+    if( y % x == 0)
     {
         return 1;
     }

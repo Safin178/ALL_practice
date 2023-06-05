@@ -23,10 +23,24 @@ Output :
 2 0
 
 Sp22-1b
+//update previous ta wrong cilo<sorry>ekn time 3:10 pm update kortesi new solution
 Output :
-when a = 8, n = 30
- sum = 23 + 26 + 29 = 78 
- if continue is replaced by break, sum = 0 
+sum = 8
+sum = 19
+sum = 33
+sum = 50
+sum = 23
+sum = 49
+sum = 78
+
+if continue is replaced with break then output will be
+sum = 8
+sum = 19
+sum = 33
+sum = 50
+//er por break er jonno loop break hoye jabe.
+
+
 
 Sp19-1b
 

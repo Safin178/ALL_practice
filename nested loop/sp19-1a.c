@@ -24,7 +24,7 @@ int main()
     }
    }
    //sesh 
-   do while loop
+   //do while loop
    do{
         if(i % 2 == 0)
         {

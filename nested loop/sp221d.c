@@ -14,7 +14,7 @@ int main()
     */
     int x, i = 0, sum = 0;
     double avg;
-    for(;;)
+    for(;;)//i++ eikane o dite partam
     {
         scanf("%d", &x);
         if(x < 0)

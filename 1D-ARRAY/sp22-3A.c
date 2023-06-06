@@ -5,19 +5,19 @@ int main()
     
     
     */
-    int arr[20] = {1,4,3,2,5,6};
-    int ans[20]; //cumulative sum gula store korar jonno
+    int arr[20] = {1,4,3,2,5,6};//age ami doita array niye felsilam ekn ektai
+   
     
     int sum = 0, i;
 
     for(i = 0; i<6;i++)
     {
         sum = sum + arr[i];
-        ans[i] = sum;
+        arr[i] = sum;
     }
     for(i = 0 ; i < 6 ; i++)
     {
-        printf("%d ", ans[i]);
+        printf("%d ", arr[i]);
     }
     /*
     Not important :
@@ -26,8 +26,8 @@ int main()
     for(i = 0; i<6;i++)
     {
         sum = sum + arr[i];
-        ans[i] = sum;
-        printf("%d ", ans[i]);
+        arr[i] = sum;
+        printf("%d ", arr[i]);
 
     }
     

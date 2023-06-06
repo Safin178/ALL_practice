@@ -26,5 +26,5 @@ int main()
 output :
 15 43 101 219 457 
 Ans = 460
-
+calculation - https://telegra.ph/Aut22-2A-06-06
 */

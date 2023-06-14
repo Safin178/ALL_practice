@@ -22,7 +22,7 @@ void solve(void)
         feqb[b[i]]++;
     }
     int count = 0;
-      for(i = 1 ; i < 100; i++)
+      for(i = 1 ; i <= 100; i++)
     {
         if(feqa[i] != 0 && feqb[i] != 0)
         {

@@ -13,7 +13,7 @@ void solve(void)
     for( i = 1; i < n; i++)
     {
         for( j = 1; j < n; j++)
-        {
+        
             if(s[i] < s[j])
             {
                 temp = s[i];

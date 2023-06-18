@@ -6,48 +6,25 @@
 
 void solve(void)
 {
-    
-char str[10000] ;
-
-gets(str);
-int len = strlen(str);
-int i, j= 1;
-for(i = 0; i <= len; i++)
-{
-     
-     
-    j++;
-    int ans = i;
-    if(str[i] == ' ')
-    {
-        while((j-1) != 0)
-        {
-            printf("%c", str[ans-1]);
-            j--;
-            ans--;
-        }
         
-    } 
+    char s[100000] ;
+
     
-     if(str[i] == 0)
-        {
-            while((j-1) != 0)
-            {
-                printf("%c", str[ans-1]);
-                j--;
-                ans--;
-            }
-            
-        } 
+    int len = strlen(s);
+    int i, j=0;
+   while (scanf("%s", s) != -1)
+   {
+        strrev(s);
+        if(j == 0)
+            printf("%s", s);
+        else 
+            printf(" %s", s);
+        j =1;
         
+   }
+   
 
-
-    
-
-    
-}
-
-    
+        
 }
 
 int main()

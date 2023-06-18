@@ -33,6 +33,7 @@ void solve(void)
     {
         printf("0\n");
     }
+    
     else if(p > n && n % 2 != 0)
     {
         printf("0\n");

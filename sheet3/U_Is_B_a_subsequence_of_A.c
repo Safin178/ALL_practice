@@ -8,7 +8,7 @@ void solve(void)
 {
     int n , m;
     scanf("%d%d", &n,&m);
-    int a[n], b[m];
+    int a[n], b[m], p[m];
     int i, j;
     for( i = 0; i < n; i++)
     {
@@ -18,30 +18,37 @@ void solve(void)
     {
         scanf("%d", &b[i]);
     }
-    int k = 0;
-    for( i = 0; i < m; i++)
-    {
-        for(j = k; j < n; j++)
+    int k = 0, f;
+   for( i =0 ; i < m ; i++)
+   {
+        f = 0;
+        for( j= 0 ; j < n; j++)
         {
-            if(a[j] == b[i])
+            if(b[i] == a[j])
             {
-                k = j;
-                b[i] = -1;
-                break;
-
+                a[j] =-1;
+                p[k]=j;
+                k++;
+                f =1;break;
             }
         }
-    }
-    for( i = 0; i < m; i++)
-    {
-        if(b[i] != -1)
+        if(f == 0)
         {
             printf("NO\n");
             return;
         }
-    }
+     
+   }
+   for(k = 1; k < m; k++)
+   {
+        if(p[k-1] > p[k])
+        {
+            printf("NO\n");
+            return;
+        
+        }
+   }
     printf("YES\n");
-
 
 
     

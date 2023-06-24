@@ -11,7 +11,7 @@ int main()
     scanf("%d %d", &a, &b);
     printf("%d %d\n",b , a );
     
-    
+    malloc()
     
     
     

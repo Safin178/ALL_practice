@@ -21,7 +21,7 @@ int main()
             for (j = i; j < n; j++)
             {
                 max = a[j];
-                for ( x = i; x < j; x++)
+                for ( x = i; x <= j; x++)
                 {
                     if (max <= a[x])
                     {

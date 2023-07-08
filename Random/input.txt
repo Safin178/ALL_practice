@@ -1,1 +1,18 @@
-5 789
+// I am a single comment and you must remove me :((
+/*
+I am a block comment and you must remove me
+*/
+
+#include<iostream>
+using namespace std;
+
+int main() {
+
+int a, b;
+cin » a » b; // Reading two variables from user (please remove me!! :( )
+cout « a + b « endl;
+
+// End of the program (remove me please :))
+return 0;
+
+}
